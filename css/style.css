@@ -1,0 +1,162 @@
+:root{
+    --hover:#7091E6;
+    --navcolor:#ADBBDA;
+    --fontcolor:#3D52A0;
+    --bgcolor:#EDE8F5;
+
+}
+/* nav bar section */
+.nav-item{
+    padding-left: 3rem;
+}
+.nav-item .nav-link {
+    color: var(--fontcolor);
+   
+}
+.nav-item .nav-link:hover{
+ color: var(--hover);
+ border-bottom: 0.1rem solid var(--hover);
+}
+
+.d-flex .btn{
+    border: 0.1rem solid var(--fontcolor);
+    color: var(--fontcolor);
+}
+.d-flex .btn:hover{
+    background-color: var(--fontcolor);
+    color: var(--bgcolor);
+}
+
+/* hero section */
+
+.container .row .col h1{
+    font-size: 1rem;
+    color: var(--hover);
+}
+.container .row .col h4{
+    line-height: 3.5rem;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+.container .row .col .btn{
+background-color: var(--hover);
+margin-top: 2rem;
+color: var(--bgcolor);
+border-radius: 0.2rem;
+
+}
+.container .row .col .btn:hover{
+ border: 0.1rem solid var(--navcolor);
+ background-color: transparent;
+ color: var(--hover);
+    
+    }
+
+    /* cayegories section */
+    .container .row .col-lg-3 h1{
+        line-height: 2.5rem;
+        font-size: 2.5rem;
+    }
+    .container .row .col-lg-3 .icon-para .icon{
+        position: relative;
+        margin-top: 2rem;
+    }
+    .container .row .col-lg-3 .icon-para .icon i{
+        font-size: 3rem;
+        
+    }
+    .container .row .col-lg-3 .icon-para .icon span{
+        font-size: 1rem;
+        opacity: 0.5;
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+
+    }
+    .container .row .col-lg-3 .btn{
+        background-color: var(--hover);
+        margin-top: 2rem;
+        color: var(--bgcolor);
+        border-radius: 0.2rem;
+    }
+    .container .row .col-lg-3 .btn:hover{
+        border: 0.1rem solid var(--navcolor);
+        background-color: transparent;
+        color: var(--hover);
+    }
+    .container .row .col-lg-3 .card{
+        cursor: pointer;
+    }
+    .container .row .col-lg-3 .card:hover{
+        border: 0.1rem solid var(--hover);
+        box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+        transition: .3s;
+        color: var(--hover);
+    }
+
+    /* two cards */
+.container .row .col-lg-6 .card .card-img-overlay  {
+    border: 0.1rem solid var(--bgcolor);
+   width: 70%;
+   height: 60%;
+  position: absolute;
+  top: 6rem;
+  left: 6rem;
+  
+}
+    .container .row .col-lg-6 .card .card-img-overlay .card-title{
+        font-size: 3rem;
+        color:black;
+        font-weight: lighter;
+        position: absolute;
+        top: 4rem;
+        left: 6.5rem;
+
+    }
+    .container .row .col-lg-6 .card .card-img-overlay .card-text{
+        font-size:0.9rem;
+        color: black;
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+    }
+    .col-lg-6 .card .card-img-overlay .btn{
+        background-color: var(--hover);
+        color: var(--bgcolor);
+        border-radius: 0.2rem;
+        position: absolute;
+        top: 9rem;
+        left: 11rem;
+    }
+    .container .col-lg-6 .card .card-img-overlay:hover{
+        cursor: pointer;
+        border: 0.1rem solid var(--hover);
+    }
+    .col-lg-6 .card .card-img-overlay .btn:hover{
+        background-color: var(--bgcolor);
+        color: var(--hover);
+    }
+    /* products */
+.container .row .col-lg-6 .col-lg-3 .btn-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+.container .row .col-lg-6 .col-lg-3 .btn-link:hover{
+    color: var(--hover);
+    font-size: 1rem;
+    border-bottom: 0.1rem solid var(--hover);
+
+}
+.container .row .col-lg-2 .btn{
+    margin-bottom: 2rem;
+
+    border: 0.1rem solid var(--navcolor);
+    background-color: transparent;
+    color: var(--hover);
+}
+.container .row .col-lg-2 .btn:hover{
+    background-color: var(--hover);
+    color: var(--bgcolor);
+}
